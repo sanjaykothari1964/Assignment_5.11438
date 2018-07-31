@@ -5,7 +5,5 @@ try:
     zerodiv()
 except ZeroDivisionError:
     print ("division by zero!")
-except Exceptionerr:
-    print ('Caught an exception')
 finally:
     print ('In finally block ')
